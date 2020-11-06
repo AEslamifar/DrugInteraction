@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="List_DrugModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="List_DrugEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Group_Drug" EntityType="List_DrugModel.Group_Drug" />
+    <EntitySet Name="Information_Drug" EntityType="List_DrugModel.Information_Drug" />
+    <EntitySet Name="Interactions" EntityType="List_DrugModel.Interactions" />
+    <EntitySet Name="Effect_Interactions" EntityType="List_DrugModel.Effect_Interactions" />
+    <AssociationSet Name="FK_Information_Drug_Group_Drug" Association="List_DrugModel.FK_Information_Drug_Group_Drug">
+      <End Role="Group_Drug" EntitySet="Group_Drug" />
+      <End Role="Information_Drug" EntitySet="Information_Drug" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Effect_Interactions_Information_Drug" Association="List_DrugModel.FK_Effect_Interactions_Information_Drug">
+      <End Role="Information_Drug" EntitySet="Information_Drug" />
+      <End Role="Effect_Interactions" EntitySet="Effect_Interactions" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Interactions_Information_Drug" Association="List_DrugModel.FK_Interactions_Information_Drug">
+      <End Role="Information_Drug" EntitySet="Information_Drug" />
+      <End Role="Interactions" EntitySet="Interactions" />
+    </AssociationSet>
+    <EntitySet Name="Group_Food" EntityType="List_DrugModel.Group_Food" />
+    <EntitySet Name="Food_Interactions" EntityType="List_DrugModel.Food_Interactions" />
+    <AssociationSet Name="FK_Food_Interactions_Information_Drug" Association="List_DrugModel.FK_Food_Interactions_Information_Drug">
+      <End Role="Information_Drug" EntitySet="Information_Drug" />
+      <End Role="Food_Interactions" EntitySet="Food_Interactions" />
+    </AssociationSet>
+    <FunctionImport Name="Delete_Group_Drug">
+      <Parameter Name="Code_Group_Drug" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="Delete_Group_Food">
+      <Parameter Name="Code_Group_Food" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="Insert_Effect_Interactions">
+      <Parameter Name="Code_Drug" Mode="In" Type="Int32" />
+      <Parameter Name="Code_Drug_Effect_Interactions" Mode="In" Type="Int32" />
+      <Parameter Name="Name_Drug_Effect_Interactions" Mode="In" Type="String" />
+      <Parameter Name="Probability_Occurrence" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="Insert_Food_Interactions">
+      <Parameter Name="Code_Drug" Mode="In" Type="Int32" />
+      <Parameter Name="Code_Group_Food" Mode="In" Type="Int32" />
+      <Parameter Name="Complications" Mode="In" Type="String" />
+      <Parameter Name="Descriptions" Mode="In" Type="String" />
+      <Parameter Name="Name_Food_Interactions" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="Insert_Group_Drug">
+      <Parameter Name="Name_Group_Drug" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="Insert_Group_Food">
+      <Parameter Name="Name_Group_Food" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="Insert_Information_Drug">
+      <Parameter Name="Code_Drug" Mode="In" Type="Int32" />
+      <Parameter Name="Code_Group_Drug" Mode="In" Type="Int32" />
+      <Parameter Name="Name_En" Mode="In" Type="String" />
+      <Parameter Name="Name_Fa" Mode="In" Type="String" />
+      <Parameter Name="Pharmaceutical_Form" Mode="In" Type="String" />
+      <Parameter Name="Advices" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="Insert_Interactions">
+      <Parameter Name="Code_Drug" Mode="In" Type="Int32" />
+      <Parameter Name="Code_Durg_Interactions" Mode="In" Type="Int32" />
+      <Parameter Name="Name_Durg_Interactions" Mode="In" Type="String" />
+      <Parameter Name="Occurrence_Probability" Mode="In" Type="String" />
+      <Parameter Name="Sart_Time" Mode="In" Type="String" />
+      <Parameter Name="Complications" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="Update_Effect_Interactions">
+      <Parameter Name="Code_Effect_Interactions" Mode="In" Type="Int32" />
+      <Parameter Name="Code_Drug" Mode="In" Type="Int32" />
+      <Parameter Name="Code_Drug_Effect_Interactions" Mode="In" Type="Int32" />
+      <Parameter Name="Name_Drug_Effect_Interactions" Mode="In" Type="String" />
+      <Parameter Name="Probability_Occurrence" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="Update_Food_Interactions">
+      <Parameter Name="Code_Food_Interactions" Mode="In" Type="Int32" />
+      <Parameter Name="Code_Drug" Mode="In" Type="Int32" />
+      <Parameter Name="Code_Group_Food" Mode="In" Type="Int32" />
+      <Parameter Name="Complications" Mode="In" Type="String" />
+      <Parameter Name="Descriptions" Mode="In" Type="String" />
+      <Parameter Name="Name_Food_Interactions" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="Update_Group_Drug">
+      <Parameter Name="Code_Group_Drug" Mode="In" Type="Int32" />
+      <Parameter Name="Name_Group_Drug" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="Update_Group_Food">
+      <Parameter Name="Code_Group_Food" Mode="In" Type="Int32" />
+      <Parameter Name="Name_Group_Food" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="Update_Information_Drug">
+      <Parameter Name="Code_Drug" Mode="In" Type="Int32" />
+      <Parameter Name="Code_Group_Drug" Mode="In" Type="Int32" />
+      <Parameter Name="Name_En" Mode="In" Type="String" />
+      <Parameter Name="Name_Fa" Mode="In" Type="String" />
+      <Parameter Name="Pharmaceutical_Form" Mode="In" Type="String" />
+      <Parameter Name="Advices" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="Update_Interactions">
+      <Parameter Name="Code_Interactions" Mode="In" Type="Int32" />
+      <Parameter Name="Code_Drug" Mode="In" Type="Int32" />
+      <Parameter Name="Code_Durg_Interactions" Mode="In" Type="Int32" />
+      <Parameter Name="Name_Durg_Interactions" Mode="In" Type="String" />
+      <Parameter Name="Occurrence_Probability" Mode="In" Type="String" />
+      <Parameter Name="Sart_Time" Mode="In" Type="String" />
+      <Parameter Name="Complications" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="Delete_Information_Drug">
+      <Parameter Name="Code_Drug" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="Delete_Effect_Interactions">
+      <Parameter Name="Code_Drug" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="Delete_Food_Interactions">
+      <Parameter Name="Code_Drug" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="Delete_Interactions">
+      <Parameter Name="Code_Drug" Mode="In" Type="Int32" />
+    </FunctionImport>
+  </EntityContainer>
+  <EntityType Name="Group_Drug">
+    <Key>
+      <PropertyRef Name="Code_Group_Drug" />
+    </Key>
+    <Property Name="Code_Group_Drug" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name_Group_Drug" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Information_Drug" Relationship="List_DrugModel.FK_Information_Drug_Group_Drug" FromRole="Group_Drug" ToRole="Information_Drug" />
+  </EntityType>
+  <EntityType Name="Information_Drug">
+    <Key>
+      <PropertyRef Name="Code_Drug" />
+    </Key>
+    <Property Name="Code_Drug" Type="Int32" Nullable="false" />
+    <Property Name="Code_Group_Drug" Type="Int32" />
+    <Property Name="Name_En" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Name_Fa" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Pharmaceutical_Form" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+    <Property Name="Advices" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Group_Drug" Relationship="List_DrugModel.FK_Information_Drug_Group_Drug" FromRole="Information_Drug" ToRole="Group_Drug" />
+    <NavigationProperty Name="Effect_Interactions" Relationship="List_DrugModel.FK_Effect_Interactions_Information_Drug" FromRole="Information_Drug" ToRole="Effect_Interactions" />
+    <NavigationProperty Name="Interactions" Relationship="List_DrugModel.FK_Interactions_Information_Drug" FromRole="Information_Drug" ToRole="Interactions" />
+    <NavigationProperty Name="Food_Interactions" Relationship="List_DrugModel.FK_Food_Interactions_Information_Drug" FromRole="Information_Drug" ToRole="Food_Interactions" />
+  </EntityType>
+  <EntityType Name="Interactions">
+    <Key>
+      <PropertyRef Name="Code_Interactions" />
+    </Key>
+    <Property Name="Code_Interactions" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Code_Drug" Type="Int32" />
+    <Property Name="Code_Durg_Interactions" Type="Int32" />
+    <Property Name="Name_Durg_Interactions" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Occurrence_Probability" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Sart_Time" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Complications" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Information_Drug" Relationship="List_DrugModel.FK_Interactions_Information_Drug" FromRole="Interactions" ToRole="Information_Drug" />
+  </EntityType>
+  <EntityType Name="Effect_Interactions">
+    <Key>
+      <PropertyRef Name="Code_Effect_Interactions" />
+    </Key>
+    <Property Name="Code_Effect_Interactions" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Code_Drug" Type="Int32" />
+    <Property Name="Code_Drug_Effect_Interactions" Type="Int32" />
+    <Property Name="Name_Drug_Effect_Interactions" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Probability_Occurrence" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Information_Drug" Relationship="List_DrugModel.FK_Effect_Interactions_Information_Drug" FromRole="Effect_Interactions" ToRole="Information_Drug" />
+  </EntityType>
+  <Association Name="FK_Information_Drug_Group_Drug">
+    <End Type="List_DrugModel.Group_Drug" Role="Group_Drug" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="List_DrugModel.Information_Drug" Role="Information_Drug" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Group_Drug">
+        <PropertyRef Name="Code_Group_Drug" />
+      </Principal>
+      <Dependent Role="Information_Drug">
+        <PropertyRef Name="Code_Group_Drug" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Effect_Interactions_Information_Drug">
+    <End Type="List_DrugModel.Information_Drug" Role="Information_Drug" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="List_DrugModel.Effect_Interactions" Role="Effect_Interactions" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Information_Drug">
+        <PropertyRef Name="Code_Drug" />
+      </Principal>
+      <Dependent Role="Effect_Interactions">
+        <PropertyRef Name="Code_Drug" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Interactions_Information_Drug">
+    <End Type="List_DrugModel.Information_Drug" Role="Information_Drug" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="List_DrugModel.Interactions" Role="Interactions" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Information_Drug">
+        <PropertyRef Name="Code_Drug" />
+      </Principal>
+      <Dependent Role="Interactions">
+        <PropertyRef Name="Code_Drug" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="Group_Food">
+    <Key>
+      <PropertyRef Name="Code_Group_Food" />
+    </Key>
+    <Property Name="Code_Group_Food" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name_Group_Food" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Food_Interactions">
+    <Key>
+      <PropertyRef Name="Code_Food_Interactions" />
+    </Key>
+    <Property Name="Code_Food_Interactions" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Code_Drug" Type="Int32" />
+    <Property Name="Code_Group_Food" Type="Int32" />
+    <Property Name="Complications" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Descriptions" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Information_Drug" Relationship="List_DrugModel.FK_Food_Interactions_Information_Drug" FromRole="Food_Interactions" ToRole="Information_Drug" />
+    <Property Name="Name_Food_Interactions" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+  </EntityType>
+  <Association Name="FK_Food_Interactions_Information_Drug">
+    <End Type="List_DrugModel.Information_Drug" Role="Information_Drug" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="List_DrugModel.Food_Interactions" Role="Food_Interactions" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Information_Drug">
+        <PropertyRef Name="Code_Drug" />
+      </Principal>
+      <Dependent Role="Food_Interactions">
+        <PropertyRef Name="Code_Drug" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

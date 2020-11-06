@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="68bdf5a108a7414fb291e074c741241f" Name="Diagram1" ZoomLevel="64">
+        <EntityTypeShape EntityType="List_DrugModel.Group_Drug" Width="1.5" PointX="0.75" PointY="5" />
+        <EntityTypeShape EntityType="List_DrugModel.Information_Drug" Width="1.875" PointX="3" PointY="4.25" />
+        <EntityTypeShape EntityType="List_DrugModel.Interactions" Width="1.5" PointX="6.125" PointY="6.5" />
+        <EntityTypeShape EntityType="List_DrugModel.Effect_Interactions" Width="1.5" PointX="5.25" PointY="9.875" />
+        <AssociationConnector Association="List_DrugModel.FK_Information_Drug_Group_Drug" />
+        <AssociationConnector Association="List_DrugModel.FK_Effect_Interactions_Information_Drug" />
+        <AssociationConnector Association="List_DrugModel.FK_Interactions_Information_Drug" />
+        <EntityTypeShape EntityType="List_DrugModel.Group_Food" Width="1.5" PointX="1.25" PointY="0.625" />
+        <EntityTypeShape EntityType="List_DrugModel.Food_Interactions" Width="1.875" PointX="6" PointY="1.75" />
+        <AssociationConnector Association="List_DrugModel.FK_Food_Interactions_Information_Drug" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

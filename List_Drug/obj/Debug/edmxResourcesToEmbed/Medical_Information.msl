@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="List_DrugModelStoreContainer" CdmEntityContainer="List_DrugEntities">
+    <EntitySetMapping Name="Group_Drug">
+      <EntityTypeMapping TypeName="List_DrugModel.Group_Drug">
+        <MappingFragment StoreEntitySet="Group_Drug">
+          <ScalarProperty Name="Name_Group_Drug" ColumnName="Name_Group_Drug" />
+          <ScalarProperty Name="Code_Group_Drug" ColumnName="Code_Group_Drug" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Information_Drug">
+      <EntityTypeMapping TypeName="List_DrugModel.Information_Drug">
+        <MappingFragment StoreEntitySet="Information_Drug">
+          <ScalarProperty Name="Advices" ColumnName="Advices" />
+          <ScalarProperty Name="Pharmaceutical_Form" ColumnName="Pharmaceutical_Form" />
+          <ScalarProperty Name="Name_Fa" ColumnName="Name_Fa" />
+          <ScalarProperty Name="Name_En" ColumnName="Name_En" />
+          <ScalarProperty Name="Code_Group_Drug" ColumnName="Code_Group_Drug" />
+          <ScalarProperty Name="Code_Drug" ColumnName="Code_Drug" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Interactions">
+      <EntityTypeMapping TypeName="List_DrugModel.Interactions">
+        <MappingFragment StoreEntitySet="Interactions">
+          <ScalarProperty Name="Complications" ColumnName="Complications" />
+          <ScalarProperty Name="Sart_Time" ColumnName="Sart_Time" />
+          <ScalarProperty Name="Occurrence_Probability" ColumnName="Occurrence_Probability" />
+          <ScalarProperty Name="Name_Durg_Interactions" ColumnName="Name_Durg_Interactions" />
+          <ScalarProperty Name="Code_Durg_Interactions" ColumnName="Code_Durg_Interactions" />
+          <ScalarProperty Name="Code_Drug" ColumnName="Code_Drug" />
+          <ScalarProperty Name="Code_Interactions" ColumnName="Code_Interactions" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Effect_Interactions">
+      <EntityTypeMapping TypeName="List_DrugModel.Effect_Interactions">
+        <MappingFragment StoreEntitySet="Effect_Interactions">
+          <ScalarProperty Name="Probability_Occurrence" ColumnName="Probability_Occurrence" />
+          <ScalarProperty Name="Name_Drug_Effect_Interactions" ColumnName="Name_Drug_Effect_Interactions" />
+          <ScalarProperty Name="Code_Drug_Effect_Interactions" ColumnName="Code_Drug_Effect_Interactions" />
+          <ScalarProperty Name="Code_Drug" ColumnName="Code_Drug" />
+          <ScalarProperty Name="Code_Effect_Interactions" ColumnName="Code_Effect_Interactions" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Group_Food">
+      <EntityTypeMapping TypeName="List_DrugModel.Group_Food">
+        <MappingFragment StoreEntitySet="Group_Food">
+          <ScalarProperty Name="Name_Group_Food" ColumnName="Name_Group_Food" />
+          <ScalarProperty Name="Code_Group_Food" ColumnName="Code_Group_Food" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Food_Interactions">
+      <EntityTypeMapping TypeName="List_DrugModel.Food_Interactions">
+        <MappingFragment StoreEntitySet="Food_Interactions">
+          <ScalarProperty Name="Name_Food_Interactions" ColumnName="Name_Food_Interactions" />
+          <ScalarProperty Name="Descriptions" ColumnName="Descriptions" />
+          <ScalarProperty Name="Complications" ColumnName="Complications" />
+          <ScalarProperty Name="Code_Group_Food" ColumnName="Code_Group_Food" />
+          <ScalarProperty Name="Code_Drug" ColumnName="Code_Drug" />
+          <ScalarProperty Name="Code_Food_Interactions" ColumnName="Code_Food_Interactions" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="Delete_Group_Drug" FunctionName="List_DrugModel.Store.Delete_Group_Drug" />
+    <FunctionImportMapping FunctionImportName="Delete_Group_Food" FunctionName="List_DrugModel.Store.Delete_Group_Food" />
+    <FunctionImportMapping FunctionImportName="Insert_Effect_Interactions" FunctionName="List_DrugModel.Store.Insert_Effect_Interactions" />
+    <FunctionImportMapping FunctionImportName="Insert_Food_Interactions" FunctionName="List_DrugModel.Store.Insert_Food_Interactions" />
+    <FunctionImportMapping FunctionImportName="Insert_Group_Drug" FunctionName="List_DrugModel.Store.Insert_Group_Drug" />
+    <FunctionImportMapping FunctionImportName="Insert_Group_Food" FunctionName="List_DrugModel.Store.Insert_Group_Food" />
+    <FunctionImportMapping FunctionImportName="Insert_Information_Drug" FunctionName="List_DrugModel.Store.Insert_Information_Drug" />
+    <FunctionImportMapping FunctionImportName="Insert_Interactions" FunctionName="List_DrugModel.Store.Insert_Interactions" />
+    <FunctionImportMapping FunctionImportName="Update_Effect_Interactions" FunctionName="List_DrugModel.Store.Update_Effect_Interactions" />
+    <FunctionImportMapping FunctionImportName="Update_Food_Interactions" FunctionName="List_DrugModel.Store.Update_Food_Interactions" />
+    <FunctionImportMapping FunctionImportName="Update_Group_Drug" FunctionName="List_DrugModel.Store.Update_Group_Drug" />
+    <FunctionImportMapping FunctionImportName="Update_Group_Food" FunctionName="List_DrugModel.Store.Update_Group_Food" />
+    <FunctionImportMapping FunctionImportName="Update_Information_Drug" FunctionName="List_DrugModel.Store.Update_Information_Drug" />
+    <FunctionImportMapping FunctionImportName="Update_Interactions" FunctionName="List_DrugModel.Store.Update_Interactions" />
+    <FunctionImportMapping FunctionImportName="Delete_Information_Drug" FunctionName="List_DrugModel.Store.Delete_Information_Drug" />
+    <FunctionImportMapping FunctionImportName="Delete_Effect_Interactions" FunctionName="List_DrugModel.Store.Delete_Effect_Interactions" />
+    <FunctionImportMapping FunctionImportName="Delete_Food_Interactions" FunctionName="List_DrugModel.Store.Delete_Food_Interactions" />
+    <FunctionImportMapping FunctionImportName="Delete_Interactions" FunctionName="List_DrugModel.Store.Delete_Interactions" />
+  </EntityContainerMapping>
+</Mapping>

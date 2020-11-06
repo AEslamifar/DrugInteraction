@@ -1,0 +1,106 @@
+F:\ponisha\List_Drug\List_Drug\List_Drug\bin\Debug\List_Drug.exe.config
+F:\ponisha\List_Drug\List_Drug\List_Drug\bin\Debug\List_Drug.exe
+F:\ponisha\List_Drug\List_Drug\List_Drug\bin\Debug\List_Drug.pdb
+F:\ponisha\List_Drug\List_Drug\List_Drug\bin\Debug\EntityFramework.dll
+F:\ponisha\List_Drug\List_Drug\List_Drug\bin\Debug\EntityFramework.SqlServer.dll
+F:\ponisha\List_Drug\List_Drug\List_Drug\bin\Debug\EntityFramework.xml
+F:\ponisha\List_Drug\List_Drug\List_Drug\bin\Debug\EntityFramework.SqlServer.xml
+F:\ponisha\List_Drug\List_Drug\List_Drug\obj\Debug\List_Drug.csprojResolveAssemblyReference.cache
+F:\ponisha\List_Drug\List_Drug\List_Drug\obj\Debug\List_Drug.Properties.Resources.resources
+F:\ponisha\List_Drug\List_Drug\List_Drug\obj\Debug\List_Drug.csproj.GenerateResource.Cache
+F:\ponisha\List_Drug\List_Drug\List_Drug\obj\Debug\List_Drug.exe
+F:\ponisha\List_Drug\List_Drug\List_Drug\obj\Debug\List_Drug.pdb
+F:\ponisha\List_Drug\List_Drug\List_Drug\obj\Debug\List_Drug.Group_Durg.resources
+F:\ponisha\List_Drug\List_Drug\List_Drug\obj\Debug\List_Drug.Main.resources
+F:\ponisha\List_Drug\List_Drug\List_Drug\obj\Debug\List_Drug.Group_Foods.resources
+F:\ponisha\List_Drug\List_Drug\List_Drug\obj\Debug\List_Drug.Effect_Interaction.resources
+F:\ponisha\List_Drug\List_Drug\List_Drug\obj\Debug\List_Drug.Enter_Drug_Information.resources
+F:\ponisha\List_Drug\List_Drug\List_Drug\obj\Debug\List_Drug.Interaction.resources
+F:\ponisha\List_Drug\List_Drug\List_Drug\obj\Debug\List_Drug.Food_Interaction.resources
+D:\hdd laptop\List_Drug\List_Drug\List_Drug\bin\Debug\List_Drug.exe.config
+D:\hdd laptop\List_Drug\List_Drug\List_Drug\bin\Debug\List_Drug.exe
+D:\hdd laptop\List_Drug\List_Drug\List_Drug\bin\Debug\List_Drug.pdb
+D:\hdd laptop\List_Drug\List_Drug\List_Drug\bin\Debug\EntityFramework.dll
+D:\hdd laptop\List_Drug\List_Drug\List_Drug\bin\Debug\EntityFramework.SqlServer.dll
+D:\hdd laptop\List_Drug\List_Drug\List_Drug\bin\Debug\EntityFramework.xml
+D:\hdd laptop\List_Drug\List_Drug\List_Drug\bin\Debug\EntityFramework.SqlServer.xml
+D:\hdd laptop\List_Drug\List_Drug\List_Drug\obj\Debug\List_Drug.csprojAssemblyReference.cache
+D:\hdd laptop\List_Drug\List_Drug\List_Drug\obj\Debug\List_Drug.Effect_Interaction.resources
+D:\hdd laptop\List_Drug\List_Drug\List_Drug\obj\Debug\List_Drug.Enter_Drug_Information.resources
+D:\hdd laptop\List_Drug\List_Drug\List_Drug\obj\Debug\List_Drug.Food_Interaction.resources
+D:\hdd laptop\List_Drug\List_Drug\List_Drug\obj\Debug\List_Drug.Group_Durg.resources
+D:\hdd laptop\List_Drug\List_Drug\List_Drug\obj\Debug\List_Drug.Group_Foods.resources
+D:\hdd laptop\List_Drug\List_Drug\List_Drug\obj\Debug\List_Drug.Interaction.resources
+D:\hdd laptop\List_Drug\List_Drug\List_Drug\obj\Debug\List_Drug.Main.resources
+D:\hdd laptop\List_Drug\List_Drug\List_Drug\obj\Debug\List_Drug.Properties.Resources.resources
+D:\hdd laptop\List_Drug\List_Drug\List_Drug\obj\Debug\List_Drug.csproj.GenerateResource.cache
+D:\hdd laptop\List_Drug\List_Drug\List_Drug\obj\Debug\List_Drug.csproj.CoreCompileInputs.cache
+D:\hdd laptop\List_Drug\List_Drug\List_Drug\obj\Debug\List_Drug.csproj.CopyComplete
+D:\hdd laptop\List_Drug\List_Drug\List_Drug\obj\Debug\List_Drug.exe
+D:\hdd laptop\List_Drug\List_Drug\List_Drug\obj\Debug\List_Drug.pdb
+D:\hdd laptop\List_Drug\List_Drug\List_Drug\obj\Debug\List_Drug.List_Drug_Information.resources
+F:\ponisha\List_Drug\List_Drug\List_Drug\List_Drug\bin\Debug\List_Drug.exe.config
+F:\ponisha\List_Drug\List_Drug\List_Drug\List_Drug\obj\Debug\List_Drug.exe
+F:\ponisha\List_Drug\List_Drug\List_Drug\List_Drug\obj\Debug\List_Drug.pdb
+F:\ponisha\List_Drug\List_Drug\List_Drug\List_Drug\bin\Debug\List_Drug.exe
+F:\ponisha\List_Drug\List_Drug\List_Drug\List_Drug\bin\Debug\List_Drug.pdb
+F:\ponisha\List_Drug\List_Drug\List_Drug\List_Drug\bin\Debug\EntityFramework.dll
+F:\ponisha\List_Drug\List_Drug\List_Drug\List_Drug\bin\Debug\EntityFramework.SqlServer.dll
+F:\ponisha\List_Drug\List_Drug\List_Drug\List_Drug\bin\Debug\EntityFramework.xml
+F:\ponisha\List_Drug\List_Drug\List_Drug\List_Drug\bin\Debug\EntityFramework.SqlServer.xml
+F:\ponisha\List_Drug\List_Drug\List_Drug\List_Drug\obj\Debug\List_Drug.csprojResolveAssemblyReference.cache
+F:\ponisha\List_Drug\List_Drug\List_Drug\List_Drug\obj\Debug\List_Drug.Effect_Interaction.resources
+F:\ponisha\List_Drug\List_Drug\List_Drug\List_Drug\obj\Debug\List_Drug.Enter_Drug_Information.resources
+F:\ponisha\List_Drug\List_Drug\List_Drug\List_Drug\obj\Debug\List_Drug.Food_Interaction.resources
+F:\ponisha\List_Drug\List_Drug\List_Drug\List_Drug\obj\Debug\List_Drug.Group_Durg.resources
+F:\ponisha\List_Drug\List_Drug\List_Drug\List_Drug\obj\Debug\List_Drug.Group_Foods.resources
+F:\ponisha\List_Drug\List_Drug\List_Drug\List_Drug\obj\Debug\List_Drug.Interaction.resources
+F:\ponisha\List_Drug\List_Drug\List_Drug\List_Drug\obj\Debug\List_Drug.List_Drug_Information.resources
+F:\ponisha\List_Drug\List_Drug\List_Drug\List_Drug\obj\Debug\List_Drug.Main.resources
+F:\ponisha\List_Drug\List_Drug\List_Drug\List_Drug\obj\Debug\List_Drug.Properties.Resources.resources
+F:\ponisha\List_Drug\List_Drug\List_Drug\List_Drug\obj\Debug\List_Drug.csproj.GenerateResource.Cache
+D:\hdd laptop\List_Drug\List_Drug\List_Drug\List_Drug\List_Drug\bin\Debug\List_Drug.exe.config
+D:\hdd laptop\List_Drug\List_Drug\List_Drug\List_Drug\List_Drug\bin\Debug\List_Drug.exe
+D:\hdd laptop\List_Drug\List_Drug\List_Drug\List_Drug\List_Drug\bin\Debug\List_Drug.pdb
+D:\hdd laptop\List_Drug\List_Drug\List_Drug\List_Drug\List_Drug\bin\Debug\EntityFramework.dll
+D:\hdd laptop\List_Drug\List_Drug\List_Drug\List_Drug\List_Drug\bin\Debug\EntityFramework.SqlServer.dll
+D:\hdd laptop\List_Drug\List_Drug\List_Drug\List_Drug\List_Drug\bin\Debug\EntityFramework.xml
+D:\hdd laptop\List_Drug\List_Drug\List_Drug\List_Drug\List_Drug\bin\Debug\EntityFramework.SqlServer.xml
+D:\hdd laptop\List_Drug\List_Drug\List_Drug\List_Drug\List_Drug\obj\Debug\List_Drug.csprojAssemblyReference.cache
+D:\hdd laptop\List_Drug\List_Drug\List_Drug\List_Drug\List_Drug\obj\Debug\List_Drug.Effect_Interaction.resources
+D:\hdd laptop\List_Drug\List_Drug\List_Drug\List_Drug\List_Drug\obj\Debug\List_Drug.Enter_Drug_Information.resources
+D:\hdd laptop\List_Drug\List_Drug\List_Drug\List_Drug\List_Drug\obj\Debug\List_Drug.Food_Interaction.resources
+D:\hdd laptop\List_Drug\List_Drug\List_Drug\List_Drug\List_Drug\obj\Debug\List_Drug.Group_Durg.resources
+D:\hdd laptop\List_Drug\List_Drug\List_Drug\List_Drug\List_Drug\obj\Debug\List_Drug.Group_Foods.resources
+D:\hdd laptop\List_Drug\List_Drug\List_Drug\List_Drug\List_Drug\obj\Debug\List_Drug.Interaction.resources
+D:\hdd laptop\List_Drug\List_Drug\List_Drug\List_Drug\List_Drug\obj\Debug\List_Drug.List_Drug_Information.resources
+D:\hdd laptop\List_Drug\List_Drug\List_Drug\List_Drug\List_Drug\obj\Debug\List_Drug.Main.resources
+D:\hdd laptop\List_Drug\List_Drug\List_Drug\List_Drug\List_Drug\obj\Debug\List_Drug.Properties.Resources.resources
+D:\hdd laptop\List_Drug\List_Drug\List_Drug\List_Drug\List_Drug\obj\Debug\List_Drug.csproj.GenerateResource.cache
+D:\hdd laptop\List_Drug\List_Drug\List_Drug\List_Drug\List_Drug\obj\Debug\List_Drug.csproj.CoreCompileInputs.cache
+D:\hdd laptop\List_Drug\List_Drug\List_Drug\List_Drug\List_Drug\obj\Debug\List_Drug.csproj.CopyComplete
+D:\hdd laptop\List_Drug\List_Drug\List_Drug\List_Drug\List_Drug\obj\Debug\List_Drug.exe
+D:\hdd laptop\List_Drug\List_Drug\List_Drug\List_Drug\List_Drug\obj\Debug\List_Drug.pdb
+D:\hdd laptop\List_Drug\List_Drug\List_Drug\List_Drug\List_Drug\obj\Debug\List_Drug.List_Drug.resources
+C:\Users\Ariana\Desktop\New folder (3)\List_Drug\List_Drug\bin\Debug\List_Drug.exe.config
+C:\Users\Ariana\Desktop\New folder (3)\List_Drug\List_Drug\bin\Debug\List_Drug.exe
+C:\Users\Ariana\Desktop\New folder (3)\List_Drug\List_Drug\bin\Debug\List_Drug.pdb
+C:\Users\Ariana\Desktop\New folder (3)\List_Drug\List_Drug\bin\Debug\EntityFramework.dll
+C:\Users\Ariana\Desktop\New folder (3)\List_Drug\List_Drug\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ariana\Desktop\New folder (3)\List_Drug\List_Drug\bin\Debug\EntityFramework.xml
+C:\Users\Ariana\Desktop\New folder (3)\List_Drug\List_Drug\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ariana\Desktop\New folder (3)\List_Drug\List_Drug\obj\Debug\List_Drug.Effect_Interaction.resources
+C:\Users\Ariana\Desktop\New folder (3)\List_Drug\List_Drug\obj\Debug\List_Drug.Enter_Drug_Information.resources
+C:\Users\Ariana\Desktop\New folder (3)\List_Drug\List_Drug\obj\Debug\List_Drug.Group_Durg.resources
+C:\Users\Ariana\Desktop\New folder (3)\List_Drug\List_Drug\obj\Debug\List_Drug.Group_Foods.resources
+C:\Users\Ariana\Desktop\New folder (3)\List_Drug\List_Drug\obj\Debug\List_Drug.Interaction.resources
+C:\Users\Ariana\Desktop\New folder (3)\List_Drug\List_Drug\obj\Debug\List_Drug.List_Drug.resources
+C:\Users\Ariana\Desktop\New folder (3)\List_Drug\List_Drug\obj\Debug\List_Drug.List_Drug_Information.resources
+C:\Users\Ariana\Desktop\New folder (3)\List_Drug\List_Drug\obj\Debug\List_Drug.Main.resources
+C:\Users\Ariana\Desktop\New folder (3)\List_Drug\List_Drug\obj\Debug\List_Drug.Properties.Resources.resources
+C:\Users\Ariana\Desktop\New folder (3)\List_Drug\List_Drug\obj\Debug\List_Drug.csproj.GenerateResource.cache
+C:\Users\Ariana\Desktop\New folder (3)\List_Drug\List_Drug\obj\Debug\List_Drug.csproj.CoreCompileInputs.cache
+C:\Users\Ariana\Desktop\New folder (3)\List_Drug\List_Drug\obj\Debug\List_Drug.csproj.CopyComplete
+C:\Users\Ariana\Desktop\New folder (3)\List_Drug\List_Drug\obj\Debug\List_Drug.exe
+C:\Users\Ariana\Desktop\New folder (3)\List_Drug\List_Drug\obj\Debug\List_Drug.pdb
+C:\Users\Ariana\Desktop\New folder (3)\List_Drug\List_Drug\obj\Debug\List_Drug.csprojAssemblyReference.cache
